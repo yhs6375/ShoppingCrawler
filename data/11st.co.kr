@@ -1,0 +1,16 @@
+header:  {
+	type:  "GET",
+	param:"%param%"     ,   
+	HTTPv:"HTTP/1.1",
+
+
+	Host:"%hostname%",
+	Connection:"close",
+	User-Agent:"TestTest",
+	Accept:"*/*",
+	Accept-Language:"ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4"
+}
+packet:{
+	hehe:"fff",
+	daspdas:"000"
+}

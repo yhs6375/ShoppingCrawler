@@ -1,0 +1,19 @@
+{
+	"header":{
+		"HTTPv":"HTTP/1.1",
+		"Connection":"close",
+		"User-Agent":"TestTest",
+		"Accept":"*/*",
+		"Accept-Language":"ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4"
+	},
+	"search_expression":{
+		"list":"abcd"
+	},
+	"common_search":{
+		"ssl":"1",
+		"type":"GET"
+	},
+	"parent_search":{
+		"param":"/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=|@goods@|"
+	}
+}

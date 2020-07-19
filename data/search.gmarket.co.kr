@@ -1,0 +1,24 @@
+{
+	"header":{
+		"HTTPv":"HTTP/1.1",
+		"Connection":"close",
+		"User-Agent":"TestTest",
+		"Accept":"*/*",
+		"Accept-Language":"ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4"
+	},
+	"search_expression":{
+		"site_type":"0",
+		"page_search_type":"0",
+		"page_check_container":"id~list_paging",
+		"page_check_exp":"tag~a",
+		"goods_list1_container1":"id~searchListItems",
+		"goods_list1_container2":"class~tt_listbox"
+	},
+	"common_search":{
+		"ssl":"0",
+		"type":"GET",
+		"encoding":"ucs-2be",
+		"url_encoding":"2",
+		"param":"/subpage/SearchItemListView.aspx?page=|@page_no@|&keyword=|@goods@|&sortfield=sell_point_info&callFrom=fnSetSort&ajaxCall=Y"
+	}
+}
